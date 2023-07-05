@@ -1,0 +1,99 @@
+*{
+    background: #d6d6d6;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 40px;
+    width: 2%;
+}
+main{
+    display: flex;
+
+}
+
+.text_area{
+    border: none;
+    color: #2a3b3b;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-left: 200px;
+    text-transform: lowercase;
+}
+
+::placeholder{color: #5a6c6d;}
+    .text_area:focus{
+        outline: none;
+    }
+
+.mensaje{
+    background: #ffffff;
+    background-image: url(/imagenes/inco.png);
+    background-size: contain;
+    background-position: 0px 20px;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #273564;
+    margin-left: 98px;
+    margin-top: 20px;   
+    padding-left: 20px;
+    position: fixed;
+}
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn_encriptar{
+    background-color: #2a2f3f;
+    border: 1px solid #272b3b;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 50px;
+    width: 328px;
+}
+
+.btn_desencriptar{
+    background: #a6a7ac;
+    border: 1px solid #272b3b;
+    border-radius: 24px;
+    color: #272b3b;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 70px;
+    width: 328px;
+
+}
+
+.copiar{
+    border: 1px solid #5a6c6d;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 45px;
+    margin-left: 108px;
+    margin-top: 420px;
+    position: absolute;
+    width: 200px;
+}
+
+.informacion{
+    color: #272b3b;
+    font-size: 12px;
+    margin-left: 85px;
+}
+
+
+
+
+
